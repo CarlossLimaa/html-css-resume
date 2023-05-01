@@ -87,3 +87,22 @@
     figure.foto-legenda:hover figcaption {
         opacity: 1;
     }
+    nav#menu {
+        display: block;
+    }
+    nav#menu ul {
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: -20px;
+        right: 50px;
+    }
+    nav#menu li {
+        display: inline-block;
+        background-color: #fff;
+        padding: 10px;
+        margin: 2px;
+    }
+    nav#menu p {
+        display: none;
+    }
